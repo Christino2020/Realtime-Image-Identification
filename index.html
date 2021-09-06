@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+   <center>
+       <H2 class = "heading">Realtime Image Identification
+       <div class = "col-lg-6 col-md-6 col-sm-6 col-xs-12 header_div">
+           <h3>Model is trained to identify the following objects-</h3>
+       </div>
+       <br>
+       <div class = " btn btn-warning header_div_2">
+           <h3>Bottle , Pillow , AC Remote , Hand</h3>
+       </div>
+    </H2>
+    <br>
+    <p class = "result_para_tag">Object:
+        <span id = "result_object_name"></span>
+        <br>
+    </p>
+    <p class = "result_para_tag">Accuracy:
+        <span id = "result_Accuracy_name"></span>
+        <br>
+    </p>
+   </center> 
+   <div class = "copy_right_footer">
+    Developed by Prasad Sreedher pvt. ltd.
+</div>
+
+   
+</body>
+<script src = "main.js"></script>
+</html>
